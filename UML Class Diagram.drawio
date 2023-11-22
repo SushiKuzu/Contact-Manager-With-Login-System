@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2023-11-21T14:52:01.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="cVQzLOTzbF1NellWbxQ-" version="22.1.2" type="device">
+  <diagram id="9o8kFmyQShLbA7Cv5iDA" name="UML">
+    <mxGraphModel dx="597" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UMSdno4edeQxx0TxXgNR-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Comic Sans MS&quot;&gt;Data&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;- password: String&lt;br&gt;- contact: Contact&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;+ Data(password: String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; contact: Contact)&lt;br&gt;+ getPassword(): String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;+ getContact(): Contact&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="120" y="360" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UMSdno4edeQxx0TxXgNR-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Comic Sans MS&quot;&gt;LoginSystemWithContacts&lt;/font&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;- p: Map&amp;lt;String, Data&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;- sc: Scanner&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;+ Main(String[ ]): void&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;+ Login(): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;+ register(): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;+ ver(String, String): boolean&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;+ showContacts(String): void&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="UMSdno4edeQxx0TxXgNR-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Comic Sans MS&quot;&gt;&lt;i&gt;Contact&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;- fullName: String&lt;br&gt;- phoneNumber: String&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;+ Contact (String, String)&amp;nbsp;&lt;br&gt;+ getFullName: String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Comic Sans MS&quot;&gt;+ getPhoneNumber: String&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="560" y="360" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UMSdno4edeQxx0TxXgNR-7" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="UMSdno4edeQxx0TxXgNR-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="sourcePoint" />
+            <mxPoint x="320" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="235" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMSdno4edeQxx0TxXgNR-8" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="UMSdno4edeQxx0TxXgNR-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="680" y="200" as="sourcePoint" />
+            <mxPoint x="580" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMSdno4edeQxx0TxXgNR-13" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="UMSdno4edeQxx0TxXgNR-3" target="UMSdno4edeQxx0TxXgNR-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="400" as="sourcePoint" />
+            <mxPoint x="710" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hOzLElLIrGxp64AtfskW-1" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="840" height="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
